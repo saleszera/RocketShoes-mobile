@@ -1,7 +1,7 @@
 import React from 'react';
 import { ScrollView } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
-import { connect, useSelector, useDispatch } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 
 import * as CartActions from '../../store/modules/cart/actions';
 
